@@ -1,20 +1,20 @@
-# defer
+# defer_g
 
 A simple library for adding defer functionality to gleam.
 
-[![Package Version](https://img.shields.io/hexpm/v/defer)](https://hex.pm/packages/defer)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/defer/)
+[![Package Version](https://img.shields.io/hexpm/v/defer_g)](https://hex.pm/packages/defer_g)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/defer_g/)
 
 ## Installation
 ```sh
-gleam add defer
+gleam add defer_g
 ```
 
 ## Usage
 
 defer is easy to use! (ha, ha get it?)
 ```gleam
-import defer
+import defer_g.{defer}
 
 pub fn main() {
   use <- defer(fn() { io.println("1") })
@@ -34,7 +34,7 @@ Note that the defers execute in reverse! If you don't care about the order of yo
 this is fine. However, If you would like the defers to execute in order then use `start_defer`
 instead.
 ```gleam
-import defer
+import defer_g.{defer}
 
 pub fn main() {
   use ctx <- start_defer(fn() { io.println("1") })
