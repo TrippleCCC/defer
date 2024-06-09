@@ -1,7 +1,7 @@
 import gleam/erlang/process.{type Subject}
 import gleam/otp/actor
 
-import defer.{add_defer, defer, start_defer}
+import defer_g.{add_defer, defer, start_defer}
 import gleeunit
 import gleeunit/should
 

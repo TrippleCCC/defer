@@ -1,5 +1,5 @@
 name = "defer_g"
-version = "1.0.0"
+version = "1.0.1"
 
 description = "A simple library for adding defer functionality to gleam."
 licences = ["Apache-2.0"]
