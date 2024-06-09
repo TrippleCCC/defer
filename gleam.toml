@@ -1,4 +1,4 @@
-name = "gleam-defer"
+name = "gleam_defer"
 version = "1.0.0"
 
 description = "A simple library for adding defer functionality to gleam."
