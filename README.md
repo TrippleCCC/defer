@@ -50,7 +50,7 @@ pub fn main() {
 3
 ```
 
-Further documentation can be found at <https://hexdocs.pm/defer>.
+Further documentation can be found at <https://hexdocs.pm/defer_g>.
 
 ## Development
 
